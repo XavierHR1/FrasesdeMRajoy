@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/ivRajoy1"
+        android:layout_width="234dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/rajoy1" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Generador de frases de Mariano Rajoy"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Pulsa el botón para generar una frase"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGenerar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar frase" />
+
+    <ImageView
+        android:id="@+id/ivRajoy2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rajoy2" />
+
+</LinearLayout>
