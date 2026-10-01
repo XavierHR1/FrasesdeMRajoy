@@ -1,4 +1,4 @@
-# Frases de M. Rajoy 🇪🇸
+# Frases de M. Rajoy
 
 L'aplicació té una interfície preparada amb XML, té un botó per a generar frases de Mariano Rajoy.
 Un cop es fa clic a generar, es llegeix un arxiu programat amb Kotlin on té una serie de frases i en tria una aleatoriament.
